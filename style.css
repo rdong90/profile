@@ -1,0 +1,140 @@
+
+
+body {
+  background-color: #FBFBFF;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  margin: 10px;
+}
+
+h1 {
+  color: #285943;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+}
+
+h2 {
+  color: #77AF9C;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+
+}
+
+
+h3 {
+  color: #80C483;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+
+h4 {
+  color: #9BE6A8;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+h5 {
+  color: #9BE6A8;
+  font-size: 14px;
+  margin: 5px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+}
+
+
+p {
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.7;
+  font-size: 13px;
+  text-align: center;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 550;
+  font-family: 'Karla', sans-serif;
+  color: #76D0C7;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 800;
+}
+
+#navigation {
+  padding: 0;
+  margin: 0;
+  border-spacing: 50em;
+}
+
+
+ul, li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.img-circle {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 2px #D1D1D1;
+}
+
+.img-curve-square {
+  border-radius: 5%;
+  box-shadow: 3px 3px 2px #D1D1D1;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1em;
+ }
+
+.card {
+  margin: 0 auto;
+  background-color: #EDF7EB;
+  box-shadow: 3px 3px 2px #D1D1D170;
+  margin: 20px;
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
